@@ -125,7 +125,7 @@ function Form() {
             <div>
                 <h1 className="text-white">
                     Total Price: ${totalPrice}
-                    <span className="text-lg ml-2 text-red-700">
+                    <span className="text-sm ml-2  text-slate-400">
                         (Shipping included)
                     </span>
                 </h1>

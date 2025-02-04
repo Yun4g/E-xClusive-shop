@@ -8,7 +8,7 @@ function Total() {
 
     const {totalPrice} = useContext(GlobalContext)
     return (
-        <section className="  shadow-xl shadow-slate-700 border-slate-950 w-96 bg-white  rounded-2xl ">
+        <section className="  shadow-xl shadow-slate-700 border-slate-950 w-full  md:w-96 bg-white  rounded-2xl ">
            <div className=" p-4 border-b-2 border-black">
           <h1 className=" text-2xl font-sans font-bold">Cart Total</h1>
           </div>

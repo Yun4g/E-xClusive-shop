@@ -59,7 +59,7 @@ console.log(storedData)
                     <h1 className="text-3xl  font-bold text-center mt-[7rem] md:mt-40  py-4">Shopping Cart</h1>
                     <section className="flex  px-3 justify-center  gap-3    lg:w-[99rem] flex-wrap  items-center">
                         {cartItem.map((item) => (
-                            <div key={item.id} className="flex flex-wrap md:justify-between bg-slate-300 justify-center items-center w-full  md:max-w-lg px-4 rounded-xl py-3 h-48 md:h-32 ">
+                            <div key={item.id} className="flex flex-wrap md:justify-between bg-slate-300 justify-center items-center w-full  md:max-w-lg px-4 rounded-xl py-3 h-fit md:h-32 ">
                                 <div className=" h-20 w-20">
                                 <img src={item.image} alt={item.title} className="w-full h-full object-contain" />
                                
