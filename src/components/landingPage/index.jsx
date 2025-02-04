@@ -62,39 +62,39 @@ function LandingPage() {
      <CarouselSpacing/>
       </section>
 
-      <section className=" py-4  border md:h-[80vh] flex flex-col justify-center items-center   bg-slate-950 ">
+      <section className="  border md:h-[80vh] flex flex-col justify-center items-center   bg-slate-950 ">
 
         
 
-        <div className=" h-[70vh] flex flex-col justify-center p-2  items-center lg:w-[49rem] ">
+        <div className="   md:h-[70vh] flex flex-col justify-center p-2  items-center lg:w-[49rem] ">
       
         <h1 className=" text-3xl lg:text-5xl mb-8 text-white font-mono font-semibold">Frequently Asked Question</h1>
         <div className=" w-full">
       <Accordion className=" w-full border rounded-2xl bg-slate-100 shadow-lg shadow-slate-800" type="single" collapsible>
   <AccordionItem value="item-1" className=" p-2  ">
     <AccordionTrigger className="text-sm md:text-xl">What shipping options do you offer?</AccordionTrigger>
-    <AccordionContent className="text-lg">
+    <AccordionContent className="text-sm  md:text-lg">
     We offer standard, express, and overnight shipping options. You can select your preferred method at checkout.
     </AccordionContent>
   </AccordionItem>
 
   <AccordionItem value="item-2" className="p-2  border-0 border-b-2">
     <AccordionTrigger className="text-sm md:text-xl">Do you ship internationally?</AccordionTrigger>
-    <AccordionContent className="text-lg">
+    <AccordionContent className="text-sm  md:text-lg">
     Yes, we ship to many countries worldwide. Please check our shipping policy for specific locations and rates.
     </AccordionContent>
   </AccordionItem>
  
   <AccordionItem value="item-3" className="p-2  border-0 border-b-2">
     <AccordionTrigger className="text-sm md:text-xl">Can I exchange an item?</AccordionTrigger>
-    <AccordionContent className="text-lg">
+    <AccordionContent className="text-sm  md:text-lg">
     Yes, exchanges can be made within 30 days of purchase. Please follow our return process and place a new order for the desired item.
     </AccordionContent>
   </AccordionItem>
 
   <AccordionItem value="item-4" className="p-2  border-0 ">
     <AccordionTrigger className="text-sm md:text-xl">How long will it take to receive my order?</AccordionTrigger>
-    <AccordionContent className="text-lg">
+    <AccordionContent className="text-sm  md:text-lg">
     Delivery times vary based on your location and the shipping method selected. Standard shipping typically takes 5-7 business days, while express shipping takes 2-3 business days.
     </AccordionContent>
   </AccordionItem>
