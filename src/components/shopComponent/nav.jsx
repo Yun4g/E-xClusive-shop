@@ -48,11 +48,11 @@ export default function NavHead() {
             {
                  toggleState ?
                  
-                  <div className=" fixed top-20 w-full backdrop-blur-lg bg-white/20  flex flex-col lg:hidden justify-center items-center  p-3 gap-4  h-72"> 
+                  <div className=" fixed top-20 w-full backdrop-blur-lg bg-black/30  flex flex-col lg:hidden justify-center items-center  p-3 gap-4  h-72"> 
                    
                  <div onClick={()=> navigate('/shop/:id')} className=" relative  h-12   pt-4 flex items-end cursor-pointer">
                     <p className=" absolute top-0  mb-8 right-0 font-bold  text-red-700 text-lg ">{cartItem.length}</p>
-                    <FontAwesomeIcon className=" text-2xl text-white" icon={faShoppingCart}/>
+                    <FontAwesomeIcon className=" text-2xl text-slate-900" icon={faShoppingCart}/>
                    
                     </div>           
                  <Link to="/" className=" text-red-700  transition-colors duration-100 hover:text-red-500 font-bold"> Home</Link>   
