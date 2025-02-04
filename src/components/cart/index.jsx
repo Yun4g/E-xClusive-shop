@@ -74,6 +74,10 @@ console.log(storedData)
                                 </div>
                                 <div className=" flex gap-3">
                                 <input type="number" className=" border-2  border-slate-950 rounded-lg w-12 p-1" name=""
+                                  inputMode="numeric"
+                                  pattern="[0-9]*"
+                                  min="1" 
+                                  step="1"
                                  onChange={(e)=> handleInput(e, item)}
                                 value={item.quantity} id=""  />
 
