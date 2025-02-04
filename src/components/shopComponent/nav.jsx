@@ -52,7 +52,7 @@ export default function NavHead() {
                    
                  <div onClick={()=> navigate('/shop/:id')} className=" relative  h-12   pt-4 flex items-end cursor-pointer">
                     <p className=" absolute top-0  mb-8 right-0 font-bold  text-red-700 text-lg ">{cartItem.length}</p>
-                    <FontAwesomeIcon className=" text-2xl text-slate-900" icon={faShoppingCart}/>
+                    <FontAwesomeIcon className=" text-2xl text-slate-200" icon={faShoppingCart}/>
                    
                     </div>           
                  <Link to="/" className=" text-red-700  transition-colors duration-100 hover:text-red-500 font-bold"> Home</Link>   
