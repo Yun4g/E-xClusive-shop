@@ -1,0 +1,51 @@
+.hide-scrollbar {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; 
+}
+
+.bgImage{
+    background-image: url('public/assets/OIG1.SmUHZzKgqztlTGYkH8_h (1).jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 99.9vh;
+
+}
+
+.bgImage::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99.9vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity for darkness */
+    z-index: 1; /* Ensure it is behind the text */
+}
+
+.text-content {
+    position: relative;
+    z-index: 2; /* Ensure it is on top of the overlay */
+}
+
+.bgImage1{
+    background-image: url('/assets/OIG1.SmUHZzKgqztlTGYkH8_h (1).jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bgImage1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity for darkness */
+    z-index: 1; /* Ensure it is behind the text */
+}
