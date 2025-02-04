@@ -32,7 +32,7 @@ function LandingPage() {
         <NavBar />
         </header>
         <main>
-          <section className="  h-screen flex items-center  gap-4  z-[1000]   lg:ps-40 ">
+          <section className="  h-screen flex items-center  gap-4  z-[1000]    ">
             <div className=" h-full  flex flex-col justify-center  w-full  items-center  md:h-1/2 lg:pt-[100px] z-[1000] ">
               <h1 className=" text-3xl md:text-5xl lg:text-7xl font-serif font-bold text-white" >Welcome to  E-<span className=" text-red-700">Xclucive</span></h1>
               <p className=" text-white  text-center text-base md:text-xl lg:text-normal mt-8 mb-8 leading-6 md:leading-8    lg:w-1/2 ">
