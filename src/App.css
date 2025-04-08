@@ -8,7 +8,7 @@
 }
 
 .bgImage{
-    background-image: url('assets/OIG1.SmUHZzKgqztlTGYkH8_h (1).jpg');
+    background-image: url('/assets/OIG1.SmUHZzKgqztlTGYkH8_h (1).jpg'); /* Use absolute path */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -33,7 +33,7 @@
 }
 
 .bgImage1{
-    background-image: url('/assets/OIG1.SmUHZzKgqztlTGYkH8_h (1).jpg');
+    background-image: url('/assets/OIG1.SmUHZzKgqztlTGYkH8_h (1).jpg'); /* Use absolute path */
     background-size: cover;
     background-position: center;
 
