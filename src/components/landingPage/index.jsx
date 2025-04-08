@@ -43,7 +43,7 @@ function LandingPage() {
                 24/7 Customer Support
                 Hassle-Free Returns Within 30 Days.
               </p>
-              <button onClick={handleNavigate} className=" bg-red-800 text-white font-bold w-60 h-12 rounded ">
+              <button onClick={handleNavigate} className=" bg-red-800 text-white p-10 font-bold w-60 h-12 rounded ">
                  Shop Demo 
                   <FontAwesomeIcon icon={faShoppingCart} />
                  </button>
